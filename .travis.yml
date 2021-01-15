@@ -21,7 +21,7 @@ jdk:
   - openjdk11
   - openjdk14
 
-script: "mvn --show-version --errors --batch-mode clean verify -DredirectTestOutputToFile=false"
+#script: "mvn --show-version --errors --batch-mode clean verify -DredirectTestOutputToFile=false"
 
 cache:
     directories:
